@@ -1,0 +1,145 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header-part {
+	background: #0872b9;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+
+
+
+#header-part .main .left {
+	width: 50%;
+
+}
+
+#header-part .main .left p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+
+#header-part .main .right {
+	width: 50%;
+	text-align: right;
+	transition: .4s;
+}
+
+#header-part .main .right i {
+	margin-left: 25px;
+	font-size: 14px;
+	color: #fff;
+}
+
+#header-part .right i:hover {
+	color: #353535;
+}
+
+/*=====================
+header-part end
+=====================*/
+/*=====================
+nav-part start
+=====================*/
+#nav-part {
+	padding: 20px 0;
+}
+
+#nav-part .main {
+	display: flex;
+}
+
+#nav-part .main .logo {
+	width: 9%;
+}
+
+#nav-part .main .item {
+	width: 91%;
+}
+
+#nav-part .main .item ul {
+	text-align: right;
+	margin-top: 15px;
+}
+
+#nav-part .main .item ul li {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-left: 15px;
+	transition: all linear .3s;
+}
+
+#nav-part .main .item ul li a {
+	color: #353535;
+}
+
+#nav-part .main .item ul li a:hover {
+	color: #4488c3;
+}
+
+/*=====================
+nav-part end
+=====================*/
+/*=====================
+banner-part start
+=====================*/
+#banner-part {
+	background: url(../images/banner.png) center no-repeat;
+	background-size: cover;
+
+
+}
+
+#banner-part .overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	text-align: right;
+	padding: 88px 0;
+}
+
+#banner-part .overlay h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+
+#banner-part .overlay h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#banner-part .overlay p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #fff;
+	margin-left: auto;
+	width: 460px;
+	padding: 30px 0;
+}
+
+#banner-part .overlay a {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	transition: .4s;
+	margin-left: 20px;
+}
+
+#banner-part .overlay a:hover {
+	background: #0872b9;
+	border: 1px solid #0872b9;
+}
